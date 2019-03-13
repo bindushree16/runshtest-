@@ -2,6 +2,7 @@ jobs:
   - name: simpalrunsh
     type: runSh
     steps:
+      - IN: myimage1
       - TASK: 
           name: task_1
           script:
