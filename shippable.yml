@@ -7,3 +7,11 @@ jobs:
           script:
             - echo "my 1st task"
           
+resources:
+  - name: myimage
+    type: image 
+    integration: docker
+    versionTemplate:
+      sourceName: bindu166/adding
+      versionName: latest
+
