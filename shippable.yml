@@ -3,7 +3,7 @@ jobs:
     type: runSh
     steps:
       - TASK: 
-        name: task_1
-        script:
-          - echo "my 1st task"
+          name: task_1
+          script:
+            - echo "my 1st task"
           
