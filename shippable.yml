@@ -8,7 +8,7 @@ jobs:
             - echo "my 1st task"
           
 resources:
-  - name: myimage
+  - name: myimage1
     type: image 
     integration: docker
     versionTemplate:
